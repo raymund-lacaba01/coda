@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainDashboard">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Dashboard">
+
+        <RelativeLayout
+            android:id="@+id/rootRL"
+            android:layout_width="204dp"
+            android:layout_height="193dp"
+            android:layout_marginStart="103dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="104dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/logo"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/textView"
+            android:layout_width="409dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/sad"
+            android:text="Coda"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/rootRL"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="607dp"
+            android:background="@drawable/logout"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/rootRL"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="66dp"
+            android:layout_marginBottom="57dp"
+            android:text="Welcome Barry Lesly"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/btnBookApp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rootRL" />
+
+        <Button
+            android:id="@+id/btnBookApp"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="49dp"
+            android:layout_marginEnd="81dp"
+            android:layout_marginBottom="3dp"
+            android:hint="Book My Appointment"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/btnAppHis"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <Button
+            android:id="@+id/btnAppHis"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="81dp"
+            android:hint="Appointment History"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/btnPers"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnBookApp" />
+
+        <Button
+            android:id="@+id/btnPers"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="81dp"
+            android:hint="Prescription"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/btnMap"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnAppHis" />
+
+        <Button
+            android:id="@+id/btnMap"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="81dp"
+            android:hint="Map"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnPers" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

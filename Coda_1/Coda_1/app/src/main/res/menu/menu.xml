@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menuHome"
+            android:icon="@drawable/dashboard"
+            android:title="@string/Dashboard"/>
+
+        <item
+            android:id="@+id/menuBookMyAppointment"
+            android:icon="@drawable/schedule"
+            android:title="@string/book_my_appointment"/>
+
+        <item
+            android:id="@+id/menuMyAppointments"
+            android:icon="@drawable/appointment"
+            android:title="@string/my_appointments"/>
+
+        <item
+            android:id="@+id/menuPrescriptions"
+            android:icon="@drawable/prescription"
+            android:title="@string/prescriptions"/>
+    </group>
+
+    <item android:title="@string/others">
+
+        <menu>
+
+            <item
+                android:id="@+id/google_map"
+                android:icon="@drawable/map"
+                android:title="@string/map"/>
+            <item
+                android:id="@+id/menuSettings"
+                android:icon="@drawable/settings"
+                android:title="@string/settings"/>
+        </menu>
+
+
+    </item>
+
+
+
+</menu>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Coda_1</string>
+    <string name="coda">CODA</string>
+    <string name="navigation_draw_open">open navigation drawer</string>
+    <string name="navigation_draw_close">close navigation drawer</string>
+    <string name="home">Home</string>
+    <string name="book_my_appointment">Book My Appointment</string>
+    <string name="my_appointments">My Appointments</string>
+    <string name="prescriptions">Prescriptions</string>
+    <string name="others">Others</string>
+    <string name="map">Map</string>
+    <string name="settings">Settings</string>
+    <string name="Dashboard">Dashboard</string>
+    <string name="Services">Services</string>
+
+
+</resources>
